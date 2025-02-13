@@ -1,6 +1,4 @@
 
-
-
 const userTab = document.querySelector("[data-userWeather]");
 const searchTab = document.querySelector("[data-searchWeather]");
 const userContainer = document.querySelector(".weather-container");
@@ -84,7 +82,7 @@ async function fetchUserWeatherInfo(coordinates) {
     }
     catch(err) {
         loadingScreen.classList.remove("active");
-        //HW
+       
 
     }
 
@@ -122,7 +120,7 @@ function getLocation() {
         navigator.geolocation.getCurrentPosition(showPosition);
     }
     else {
-        //HW - show an alert for no gelolocation support available
+        alert('no location found')
     }
 }
 
@@ -168,6 +166,6 @@ async function fetchSearchWeatherInfo(city) {
         renderWeatherInfo(data);
     }
     catch(err) {
-        //hW
+       console.log(`${city} not found`);
     }
 }
