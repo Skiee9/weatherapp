@@ -1,7 +1,7 @@
 
 # WeatherApp - JavaScript, HTML & CSS
 
-Welcome to the WeatherApp project! This is a simple weather application that provides real-time weather information based on user input.
+This is a simple weather application that provides real-time weather information based on user input.
 
 
 ## Table of Contents
