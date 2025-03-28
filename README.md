@@ -1,5 +1,5 @@
 
-# WeatherApp - JavaScript, HTML & CSS
+# WeatherApp
 
 This is a simple weather application that provides real-time weather information based on user input.
 
