@@ -1,5 +1,5 @@
 
-# WeatherApp
+# Weather App
 
 This is a simple weather application that provides real-time weather information based on user input.
 
